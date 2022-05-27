@@ -5,7 +5,6 @@ import classes from "./AuthForm.module.css";
 const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [loading, setIsLoading] = useState(false);
-  const [idToken, setIdToken] = useState("");
 
   const emailRef = useRef();
   const passwordRef = useRef();
